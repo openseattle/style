@@ -1,0 +1,9 @@
+:root {
+  --serif: Georgia, serif;
+  --sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, arial, sans-serif;
+  --monospace: Monaco, Menlo, monospace;
+  --main-color: #539442;
+  --accent-color: #F09233;
+  --light-grey: #fefefa;
+  --dark-grey: #333333;
+}

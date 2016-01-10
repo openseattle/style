@@ -1,0 +1,25 @@
+.nav-items {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-nav {
+  padding: 5px 0px;
+  background-color: var(--light-grey);
+}
+
+.top-nav .nav-items {
+  float: right;
+}
+
+.top-nav .nav-item {
+  display: inline-block;
+}
+
+.side-nav {
+  
+}
+
+.footer-nav {
+  
+}

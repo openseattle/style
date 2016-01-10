@@ -1,0 +1,36 @@
+{
+  "name": "openseattle-style",
+  "version": "1.0.0",
+  "description": "open seattle style guide & base css styles",
+  "main": "index.js",
+  "style": "dist/style.css",
+  "scripts": {
+    "bundle": "sheetify -u sheetify-cssnext css/index.css > dist/style.css",
+    "watch": "chokidar --initial 'css/*.css' -c 'npm run bundle'",
+    "start": "npm run watch & budo example.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openseattle/style.git"
+  },
+  "keywords": [
+    "css",
+    "open seattle"
+  ],
+  "author": "sethvincent <sethvincent@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openseattle/style/issues"
+  },
+  "homepage": "https://github.com/openseattle/style#readme",
+  "dependencies": {
+    "basscss-grid": "^1.0.4",
+    "csskit": "^1.1.1",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "sheetify": "^3.3.3",
+    "sheetify-cssnext": "^1.0.7"
+  }
+}
