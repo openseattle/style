@@ -1,0 +1,12 @@
+button, .button {
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  color: #fff;
+}
+
+button:hover, .button:hover,
+button:focus, .button:focus {
+  background-color: color(var(--accent-color) shade(10%));
+  border: 1px solid color(var(--accent-color) shade(10%));
+  color: #fff;
+}

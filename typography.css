@@ -44,7 +44,7 @@ h6 {
 }
 
 a {
-  color: #1697a5;
+  color: var(--link);
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
   text-decoration: none;
@@ -52,7 +52,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #0E5A62;
+  color: var(--link-hover);
 }
 
 p {
@@ -89,6 +89,9 @@ pre code {
 hr {
   height: 1px;
   border: 0;
-  border-top: 1px solid var(--dark-grey);
-  margin: 20px 0 30px 0;
+  border-top: 1px solid #ccc;
+  width: 200px;
+  margin: 30px auto;
+  content: "";
+  clear: both;
 }

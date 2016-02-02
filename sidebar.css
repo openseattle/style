@@ -1,0 +1,19 @@
+.page-sidebar {
+  
+}
+
+.sidebar-section {
+  margin-bottom: 50px;
+}
+
+.sidebar-header {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  color: color(var(--dark-grey) tint(20%));
+}
+
+.sidebar-text {
+  
+}

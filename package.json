@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "open seattle style guide & base css styles",
   "main": "index.js",
-  "style": "dist/style.css",
+  "style": "dist/openseattle-style.css",
   "scripts": {
-    "bundle": "sheetify -u sheetify-cssnext css/index.css > dist/style.css",
-    "watch": "chokidar --initial 'css/*.css' -c 'npm run bundle'",
-    "start": "npm run watch & budo example.js --live"
+    "bundle": "sheetify -u sheetify-cssnext index.css > dist/openseattle-style.css",
+    "min": "cleancss dist/openseattle-style.css -o dist/openseattle-style.min.css",
+    "watch": "chokidar --initial '*.css' -c 'npm run bundle'"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "chokidar-cli": "^1.2.0",
+    "clean-css": "^3.4.9",
     "sheetify": "^3.3.3",
     "sheetify-cssnext": "^1.0.7"
   }
