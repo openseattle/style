@@ -1,6 +1,6 @@
 {
   "name": "openseattle-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "open seattle style guide & base css styles",
   "main": "index.js",
   "style": "dist/openseattle-style.css",
